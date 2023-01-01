@@ -4,7 +4,7 @@ const workbook = XLSX.readFile('./test.xlsx');
 
 const worksheet = workbook.Sheets.Sheet1!;
 
-XLSX.utils.sheet_add_aoa(worksheet, [['test']], { origin: 'E5' });
+XLSX.utils.sheet_add_aoa(worksheet, [['stop using excel as a database']], { origin: 'E5' });
 
 console.log(worksheet);
 
