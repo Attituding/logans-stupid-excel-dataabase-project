@@ -1,0 +1,9 @@
+{
+    "extends": "@tsconfig/node-lts-strictest/tsconfig.json",
+    "compilerOptions": {
+        "exactOptionalPropertyTypes": false,
+        "noPropertyAccessFromIndexSignature": false,
+        "outDir": "dist",
+        "resolveJsonModule": true
+    }
+}
